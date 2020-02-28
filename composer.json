@@ -1,0 +1,19 @@
+{
+    "name": "gabriel/fatec-classroom",
+    "description": "Sistema para gerenciamento de laboratórios",
+    "authors": [
+        {
+            "name": "Gabriel José de Oliveira",
+            "email": "gaoliveira211999@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "src/app"
+        }
+    },
+    "require": {
+        "slim/slim": "3.*",
+        "rain/raintpl": "^3.1"
+    }
+}
